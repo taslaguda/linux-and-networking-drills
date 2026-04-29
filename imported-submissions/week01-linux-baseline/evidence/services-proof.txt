@@ -1,0 +1,34 @@
+=== SERVICES PROOF ===
+Date: Mon Apr 13 21:09:08 UTC 2026
+
+SSH: active
+Cron: active
+
+--- Memory ---
+               total        used        free      shared  buff/cache   available
+Mem:           911Mi       416Mi       115Mi       2.8Mi       557Mi       494Mi
+Swap:             0B          0B          0B
+
+--- Disk ---
+Filesystem       Size  Used Avail Use% Mounted on
+/dev/root        6.8G  3.1G  3.7G  45% /
+tmpfs            456M     0  456M   0% /dev/shm
+tmpfs            183M  948K  182M   1% /run
+tmpfs            5.0M     0  5.0M   0% /run/lock
+efivarfs         128K  3.6K  120K   3% /sys/firmware/efi/efivars
+/dev/nvme0n1p16  881M  162M  657M  20% /boot
+/dev/nvme0n1p15  105M  6.2M   99M   6% /boot/efi
+/dev/nvme1n1p1   6.8G  2.6G  4.2G  39% /mnt/old
+tmpfs             92M   12K   92M   1% /run/user/1021
+
+--- Top Processes ---
+root           1  0.0  1.3  22776 12620 ?        Ss   Apr12   0:13 /usr/lib/systemd/systemd --system --deserialize=49
+root           2  0.0  0.0      0     0 ?        S    Apr12   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        S    Apr12   0:00 [pool_workqueue_release]
+root           4  0.0  0.0      0     0 ?        I<   Apr12   0:00 [kworker/R-rcu_gp]
+root           5  0.0  0.0      0     0 ?        I<   Apr12   0:00 [kworker/R-sync_wq]
+root           6  0.0  0.0      0     0 ?        I<   Apr12   0:00 [kworker/R-kvfree_rcu_reclaim]
+root           7  0.0  0.0      0     0 ?        I<   Apr12   0:00 [kworker/R-slub_flushwq]
+root           8  0.0  0.0      0     0 ?        I<   Apr12   0:00 [kworker/R-netns]
+root          10  0.0  0.0      0     0 ?        I<   Apr12   0:00 [kworker/0:0H-events_highpri]
+root          13  0.0  0.0      0     0 ?        I<   Apr12   0:00 [kworker/R-mm_percpu_wq]

@@ -1,0 +1,8 @@
+=== CRON PROOF ===
+Date: Mon Apr 13 21:23:58 UTC 2026
+
+--- Cron Entry ---
+* * * * * bash /week01-submissions/tasmin-linux-baseline/scripts/health-check.sh >> /week01-submissions/tasmin-linux-baseline/evidence/health-check-output.txt 2>&1
+
+--- Sample Output From Automated Run ---
+

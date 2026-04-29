@@ -1,0 +1,6 @@
+Hostname: ip-172-31-18-193
+Ubuntu Version: Ubuntu 24.04.4 LTS
+Kernel: 6.17.0-1007-aws
+Current User: tasmin
+Home Directory: /home/tasmin
+Date and Time: Mon Apr 13 16:38:40 UTC 2026

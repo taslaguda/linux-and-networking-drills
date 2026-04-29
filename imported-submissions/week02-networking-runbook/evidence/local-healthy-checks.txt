@@ -1,0 +1,10 @@
+=== LOCAL HEALTHY CHECKS ===
+Date: Tue Apr 21 23:02:46 UTC 2026
+Port: 8016
+Port: 8016
+Command: ss -tlnp | grep 8016
+Output: LISTEN 0.0.0.0:8016 - port is bound and listening
+--- Check 2: Does the service respond to HTTP? ---
+Command: curl -s --max-time 5 http://localhost:8016
+Command: curl -s --max-time 5 http://localhost:8016
+Conclusion: Both checks passed. Service is healthy.

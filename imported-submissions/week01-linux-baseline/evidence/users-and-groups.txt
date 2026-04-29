@@ -1,0 +1,5 @@
+Username: tasmin
+User ID: uid=1021(tasmin) gid=1021(tasmin) groups=1021(tasmin),27(sudo),100(users)
+Groups: tasmin sudo users
+Home Directory: /home/tasmin
+SSH Status: active

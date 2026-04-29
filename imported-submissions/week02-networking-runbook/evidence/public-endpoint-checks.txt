@@ -1,0 +1,9 @@
+=== PUBLIC ENDPOINT CHECKS ===
+Test 1 - Healthy HTTPS: https://example.com
+Result: 200 - TLS handshake succeeded, content returned successfully
+Test 2 - Plain HTTP: http://neverssl.com
+Result: 200 - No TLS, plain HTTP connection, content returned
+Test 3 - Redirect: https://httpbin.org/redirect/1
+Result: 302 - Server returned a redirect, not the final content
+Test 4 - TLS failure: https://expired.badssl.com
+Result: 000 Exit code 60 - TLS certificate expired, curl refused to connect

@@ -1,0 +1,8 @@
+=== LOCAL FAILURE CHECKS ===
+Failure 1 - Wrong port (outside assigned range)
+Command: curl -s --max-time 5 http://localhost:8999
+Command: curl -s --max-time 5 http://localhost:8999
+Command: curl -s --max-time 5 http://localhost:8999
+Command: curl -s --max-time 5 http://localhost:8016
+Exit code: 28 - curl timed out. Service was suspended and not serving requests.
+Exit code: 28 - curl timed out. Service was suspended and not serving requests.

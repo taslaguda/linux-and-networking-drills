@@ -1,0 +1,23 @@
+=== PERMISSIONS PROOF ===
+Workspace: total 20
+drwxrwxr-x 5 tasmin tasmin 4096 Apr 13 20:55 .
+drwxr-x--- 7 tasmin tasmin 4096 Apr 13 20:55 ..
+drwxr-xr-x 2 tasmin tasmin 4096 Apr 13 20:55 logs
+drwx------ 2 tasmin tasmin 4096 Apr 13 20:55 notes
+drwxr-x--- 2 tasmin tasmin 4096 Apr 13 20:55 scripts
+
+Scripts: total 12
+drwxr-x--- 2 tasmin tasmin 4096 Apr 13 20:55 .
+drwxrwxr-x 5 tasmin tasmin 4096 Apr 13 20:55 ..
+-rwxr-x--- 1 tasmin tasmin   50 Apr 13 20:55 health-check.sh
+
+Notes: total 12
+drwx------ 2 tasmin tasmin 4096 Apr 13 20:55 .
+drwxrwxr-x 5 tasmin tasmin 4096 Apr 13 20:55 ..
+-rw------- 1 tasmin tasmin   14 Apr 13 20:55 private.txt
+
+Logs: total 8
+drwxr-xr-x 2 tasmin tasmin 4096 Apr 13 20:55 .
+drwxrwxr-x 5 tasmin tasmin 4096 Apr 13 20:55 ..
+
+Owner: tasmin | uid=1021(tasmin) gid=1021(tasmin) groups=1021(tasmin),27(sudo),100(users)
