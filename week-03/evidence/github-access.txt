@@ -1,0 +1,6 @@
+GitHub username: taslaguda
+Repository: linux-and-networking-drills
+SSH access confirmed: yes
+Date: Wed Apr 29 22:16:29 BST 2026
+Test command: ssh -T git@github.com
+Result: Hi lagudatasmin! You've successfully authenticated
