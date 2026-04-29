@@ -1,10 +1,34 @@
-=== LOCAL HEALTHY CHECKS ===
-Date: Tue Apr 21 23:02:46 UTC 2026
-Port: 8016
-Port: 8016
-Command: ss -tlnp | grep 8016
-Output: LISTEN 0.0.0.0:8016 - port is bound and listening
---- Check 2: Does the service respond to HTTP? ---
-Command: curl -s --max-time 5 http://localhost:8016
-Command: curl -s --max-time 5 http://localhost:8016
-Conclusion: Both checks passed. Service is healthy.
+* Host localhost:8016 was resolved.
+* IPv6: ::1
+* IPv4: 127.0.0.1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying [::1]:8016...
+* connect to ::1 port 8016 from ::1 port 47418 failed: Connection refused
+*   Trying 127.0.0.1:8016...
+* Connected to localhost (127.0.0.1) port 8016
+> GET / HTTP/1.1
+> Host: localhost:8016
+> User-Agent: curl/8.5.0
+> Accept: */*
+> 
+< HTTP/1.1 200 OK
+< Content-Type: text/plain
+< Connection: close
+< 
+{ [47 bytes data]
+100    47    0    47    0     0     39      0 --:--:--  0:00:01 --:--:--    39100    47    0    47    0     0     21      0 --:--:--  0:00:02 --:--:--    21100    47    0    47    0     0     14      0 --:--:--  0:00:03 --:--:--    14100    47    0    47    0     0     11      0 --:--:--  0:00:04 --:--:--    11* Operation timed out after 5002 milliseconds with 47 bytes received
+100    47    0    47    0     0      9      0 --:--:--  0:00:05 --:--:--     9
+* Closing connection
+curl: (28) Operation timed out after 5002 milliseconds with 47 bytes received
+Week 2 simple service is running on port 8016
+LISTEN 0      1            0.0.0.0:8016      0.0.0.0:*          
+LISTEN 0      1            0.0.0.0:8016      0.0.0.0:*          
+LISTEN 1      1            0.0.0.0:8016      0.0.0.0:*          
+LISTEN 0      1            0.0.0.0:8016      0.0.0.0:*          
+LISTEN 1      1            0.0.0.0:8016      0.0.0.0:*          
+LISTEN 2      1            0.0.0.0:8016      0.0.0.0:*          
+LISTEN 1      1            0.0.0.0:8016      0.0.0.0:*          
+LISTEN 1      1            0.0.0.0:8016      0.0.0.0:*          
+LISTEN 2      1            0.0.0.0:8016      0.0.0.0:*          
+LISTEN 2      1            0.0.0.0:8016      0.0.0.0:*          
