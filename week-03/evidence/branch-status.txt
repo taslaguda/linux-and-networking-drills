@@ -1,0 +1,7 @@
+Branch: week03-review-notes
+Created from: main
+Commits on branch:
+2473388 add week03 repository structure notes
+bf2418c import week01 and week02 submission folders
+debf8b1 initial repo structure
+Date: Wed Apr 29 22:35:14 BST 2026
